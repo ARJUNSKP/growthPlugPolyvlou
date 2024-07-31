@@ -146,8 +146,7 @@
   width: 8rem;
 }
 
-/*****************************/
-
+/* New patient  */
 .newPatientsMain {
   display: flex;
   justify-content: center;
@@ -199,7 +198,8 @@
   width: 13rem;
 }
 
-/* ****************** */
+/* Specialties */
+
 .specialties {
   display: flex;
   flex-direction: column;
@@ -272,8 +272,7 @@ small {
   font-weight: bold;
 }
 
-/*********************************/
-
+/* Invitation */
 .invitation {
   background-image: url("./assets/invisalign.JPG");
   background-position: center;
@@ -283,8 +282,7 @@ small {
   height: 80vh;
 }
 
-/*********************************/
-
+/* Doctor details */
 .meetDoctor {
   width: 100%;
   padding: 2rem;
@@ -319,8 +317,7 @@ small {
   height: 100%;
 }
 
-/* ********************** */
-
+/* Apart */
 .Apart {
   text-align: center;
 }
@@ -372,6 +369,8 @@ small {
   top: -26px;
   left: -26px;
 }
+
+/* Review */
 .reviewMainDiv {
   background-image: url("./assets/review/reviewBackground.jpg");
   background-position: center;
@@ -385,7 +384,7 @@ small {
   flex-direction: column;
 }
 .reviewMainDiv > strong {
-  color: white !important;
+  color: rgb(57, 103, 204) !important;
   font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
 }
 .googleLog {
@@ -395,7 +394,7 @@ small {
   color: white;
 }
 .reviewCard {
-  width: 25%;
+  width: 33%;
   height: auto;
   background-color: white;
   display: flex;
@@ -431,6 +430,8 @@ small {
   gap: 1rem;
   margin: 3rem 0;
 }
+
+/* follow */
 .follow {
   width: 100%;
   height: auto;
@@ -473,7 +474,8 @@ small {
   min-width: 15rem;
   max-width: 15rem;
 }
-/***** Footer ******/
+
+/*Footer */
 footer {
   background-color: rgb(57, 103, 204);
   padding: 2rem 3rem;
@@ -582,6 +584,12 @@ footer {
     width: 100%;
     padding: 0 1rem;
   }
+  .carouselItem3 {
+    display: none;
+  }
+  .reviewCard {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 600px) {
   .followMainDiv {
@@ -624,6 +632,12 @@ footer {
   .footer {
     padding: 2rem;
   }
+  .carouselItem2 {
+    display: none;
+  }
+  .reviewCard {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 480px) {
   .specialtiesCard {
@@ -635,5 +649,8 @@ footer {
   }
   .footerMainDiv {
     flex-direction: column-reverse;
+  }
+  .reviewCard {
+    width: 70%;
   }
 }
