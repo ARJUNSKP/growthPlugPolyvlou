@@ -88,6 +88,7 @@
   color: rgba(44, 44, 228, 0.856);
   border-radius: 5px;
   padding: 10px;
+  border: none;
 }
 
 /****************************/
@@ -195,12 +196,15 @@
   font-weight: bold;
   width: 13rem;
 }
+
+/* ****************** */
 .specialties {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem 0;
 }
+
 .specialties strong {
   color: rgb(57, 103, 204);
   font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
@@ -219,6 +223,10 @@
   margin: 4rem 0;
   position: relative;
   padding-top: 3.5rem;
+  transition: all 1s ease-in-out;
+}
+.specialtiesCard:hover {
+  scale: 1.1;
 }
 .specialtiesCard > label {
   font-size: clamp(1.1875rem, 1.017rem + 0.6818vw, 1.5625rem);
@@ -232,6 +240,9 @@
 small {
   font-size: 15px;
   color: gray;
+}
+.specialtiesCard > small {
+  cursor: pointer;
 }
 .specialtiesIcon {
   position: absolute;
@@ -305,6 +316,9 @@ small {
   width: 74%;
   height: 100%;
 }
+
+/* ********************** */
+
 .Apart {
   text-align: center;
 }
@@ -336,6 +350,10 @@ small {
   padding: 5px;
   gap: 1rem;
   position: relative;
+  transition: all 1s ease-in-out;
+}
+.apartCard:hover {
+  scale: 1.1;
 }
 .cond {
   width: 43px;

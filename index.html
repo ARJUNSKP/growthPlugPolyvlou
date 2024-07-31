@@ -15,6 +15,9 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -80,7 +83,9 @@
         <button class="btnHome">REQUEST AN APPOINTMENT</button>
     </div>
     <!-- About-->
-     <div id="aboutPage" class="welcomeDiv">
+     <div id="aboutPage" class="welcomeDiv" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" >
         <div class="welcomeImageDiv">
             <div class="welcomeImg">
                 <img src="./assets/welcome.JPG" alt="..." style="width: 100%;object-fit: cover;"/>
@@ -98,7 +103,7 @@
      </div>
      <!-- ************************* -->
       <div id="newPatient" class="newPatientsMain">
-        <div class="newPatientDiv">
+        <div  class="newPatientDiv">
             <strong>WELCOMING NEW PATIENTS</strong>
             <p>We are thrilled to offer exclusive discounts for new patients to make your dental care experience even more rewarding. Interested in taking advantage of our New Patient Specials </p>
             <div class="patientBtnGroup">
@@ -111,7 +116,9 @@
        <div id="servicesPage" class="specialties">
         <strong>OUR SPECIALTIES</strong>
         <div class="mainSpecialtiesCard">
-            <div class="specialtiesCard">
+            <div class="specialtiesCard" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" >
                 <div class="specialtiesIcon">
                     <img src="./assets/home/icon1.JPG" alt="..." style="width: 100%;object-fit: cover;"/>
                 </div>
@@ -119,7 +126,9 @@
                 <p class="px-2">Transform your smile width invisalign, the discreet and comfortable way to straighten your teeth</p>
                 <small class="py-2">Read More</small>
             </div>
-            <div class="specialtiesCard">
+            <div class="specialtiesCard" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <div class="specialtiesIcon">
                     <img src="./assets/home/icon2.JPG" alt="..." style="width: 100%;object-fit: cover;"/>
                 </div>
@@ -127,7 +136,9 @@
                 <p class="px-2">Experience the ultimate in oral health care width our comprehensive general and family dentistry services</p>
                 <small class="py-2">Read More</small>
             </div>
-            <div class="specialtiesCard">
+            <div class="specialtiesCard" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <div class="specialtiesIcon">
                     <img src="./assets/home/icon3.JPG" alt="..." style="width: 100%;object-fit: cover;"/>
                 </div>
@@ -142,7 +153,9 @@
         <div class="invitation">
         </div>
         <!-- ****************************** -->
-         <div class="meetDoctor">
+         <div class="meetDoctor" data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500" >
             <strong>MEET THE DOCTOR</strong>
             <div class="doctor">
                 <div class="doctorImage">
@@ -161,7 +174,9 @@
           <div class="Apart">
             <strong>WHAT SETS US APART</strong>
             <div class="apartMainDiv">
-                <div class="apartCard">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1600" class="apartCard">
                     <div class="cond">
                         <label>1.</label>
                     </div>
@@ -171,7 +186,9 @@
                     <small>STATE-OF-THE-ART TECHNOLOGY</small>
                 </div>
       
-                <div class="apartCard">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1610" class="apartCard">
                     <div class="cond">
                         <label>2.</label>
                     </div>
@@ -182,7 +199,9 @@
                 </div>
 
 
-                <div class="apartCard">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1620" class="apartCard">
                     <div class="cond">
                         <label>3.</label>
                     </div>
@@ -193,7 +212,9 @@
                 </div>
 
 
-                <div class="apartCard">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1630" class="apartCard">
                     <div class="cond">
                         <label>4.</label>
                     </div>
@@ -202,7 +223,9 @@
                     </div>
                     <small>PICTURE-PERFECT RESULTS</small>
                 </div>
-                <div class="apartCard">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1640" class="apartCard">
                     <div class="cond">
                         <label>5.</label>
                     </div>
@@ -211,7 +234,9 @@
                     </div>
                     <small>EMERGENCY VISITS</small>
                 </div>
-                <div class="apartCard">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1650" class="apartCard">
                     <div class="cond">
                         <label>6.</label>
                     </div>
@@ -352,9 +377,12 @@
                 </div>
             </footer>
             <!-- Linking Swiper js script -->
-            
-
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
             <script src="./script.js"></script>
+            <!-- aos script -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
   </body>
 </html>
