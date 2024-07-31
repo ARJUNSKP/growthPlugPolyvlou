@@ -10,7 +10,7 @@
   background-color: white !important;
 }
 .forPatients {
-  min-width: 117px;
+  min-width: 121px;
 }
 .nav-item a {
   color: rgb(57, 103, 204);
@@ -28,13 +28,16 @@
   color: white !important;
 }
 .headerTopContainerItem1 {
-  width: 7rem;
+  min-width: 9rem;
+  max-width: 10rem;
 }
 .headerTopContainerItem2 {
-  width: 11rem;
+  min-width: 13rem;
+  max-width: 14rem;
 }
 .headerTopContainerItem3 {
-  width: 12rem;
+  min-width: 14rem;
+  max-width: 15rem;
 }
 .headerTopContainer {
   border-radius: 5px;
