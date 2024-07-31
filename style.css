@@ -497,6 +497,10 @@ footer {
 .footerLine {
   font-size: 12px;
 }
+.footerNav {
+  color: white;
+  text-decoration: none;
+}
 .footerLine ul {
   list-style: none;
   padding: 0;
@@ -505,7 +509,9 @@ footer {
   margin: 0;
   color: white;
 }
-
+.collapse > ul {
+  padding: 0 2rem !important;
+}
 @media screen and (max-width: 1000px) {
   .navbar {
     padding: 0 4rem !important;
@@ -588,6 +594,15 @@ footer {
   }
   .navbar {
     padding: 0 !important;
+  }
+  .welcomeDiv {
+    padding: 2rem 0;
+  }
+  .apartMainDiv {
+    padding: 4rem 3rem;
+  }
+  .footer {
+    padding: 2rem;
   }
 }
 @media screen and (max-width: 480px) {

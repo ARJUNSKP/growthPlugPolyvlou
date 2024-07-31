@@ -48,22 +48,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#homePage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#aboutPage">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#servicesPage">SERVICES</a>
             </li>
             <li class="nav-item forPatients">
-              <a class="nav-link" href="#">FOR PATIENTS</a>
+              <a class="nav-link" href="#newPatient">FOR PATIENTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">INVISALIGN</a>
+              <a class="nav-link" href="#reviewPage">INVISALIGN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#contactPage">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -73,12 +73,14 @@
         <small><img src="./assets/demant.JPG" alt="..." style="width: 27px;padding: 0 5px;"/>Home of Affordable Invisalign</small>
         <small>Call today for consultation. Click here to learn more</small>
     </div>
-    <div class="home">
+
+    <!-- home -->
+    <div id="homePage" class="home">
         <label class="homeTest"><b>Servicing Downriver Since 1995</b></label>
         <button class="btnHome">REQUEST AN APPOINTMENT</button>
     </div>
-    <!-- ************************** -->
-     <div class="welcomeDiv">
+    <!-- About-->
+     <div id="aboutPage" class="welcomeDiv">
         <div class="welcomeImageDiv">
             <div class="welcomeImg">
                 <img src="./assets/welcome.JPG" alt="..." style="width: 100%;object-fit: cover;"/>
@@ -95,7 +97,7 @@
         </div>
      </div>
      <!-- ************************* -->
-      <div class="newPatientsMain">
+      <div id="newPatient" class="newPatientsMain">
         <div class="newPatientDiv">
             <strong>WELCOMING NEW PATIENTS</strong>
             <p>We are thrilled to offer exclusive discounts for new patients to make your dental care experience even more rewarding. Interested in taking advantage of our New Patient Specials </p>
@@ -106,7 +108,7 @@
         </div>
       </div>
       <!-- ************************ -->
-       <div class="specialties">
+       <div id="servicesPage" class="specialties">
         <strong>OUR SPECIALTIES</strong>
         <div class="mainSpecialtiesCard">
             <div class="specialtiesCard">
@@ -221,7 +223,7 @@
 
           </div>
           <!-- ***************************** -->
-           <div class="reviewMainDiv">
+           <div id="reviewPage" class="reviewMainDiv">
             <strong>REVIEWS</strong>
             <small class="description">Exceptionally high standards of dentistry</small>
             <!-- <div class=""> -->
@@ -267,7 +269,7 @@
                </div> -->
             </div>
            <!-- ******************************** -->
-            <div class="follow">
+            <div id="contactPage" class="follow">
                 <strong>Follow us on Instagram</strong>
                 <div class="followMainDiv">
 
@@ -319,9 +321,9 @@
                 <div class="footerMainDiv">
                     <div class="footerSubDiv">
                         <ul>
-                            <li>Home</li>
-                            <li>Contact Us</li>
-                            <li>Review</li>
+                            <li><a href="#homePage" class="footerNav">Home</a></li>
+                            <li><a href="#contactPage" class="footerNav">Contact Us</a></li>
+                            <li><a href="#reviewPage" class="footerNav">Review</a></li>
                             <li><button class="btnStyle">Request an Appointment</button></li>
                         </ul>
                     </div>
