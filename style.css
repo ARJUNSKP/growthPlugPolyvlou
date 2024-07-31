@@ -1,0 +1,604 @@
+.bodyDiv {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/************* Header **********************/
+.navbar {
+  padding: 0 9rem !important;
+}
+.forPatients {
+  min-width: 117px;
+}
+.nav-item a {
+  color: rgba(44, 44, 228, 0.856);
+}
+.mainHeaderTop {
+  display: flex;
+  justify-content: center;
+}
+.headerTopContainer:active {
+  background-color: white;
+  border: 1px solid black;
+  color: black !important;
+}
+.headerTopContainer small {
+  color: white !important;
+}
+.headerTopContainerItem1 {
+  width: 7rem;
+}
+.headerTopContainerItem2 {
+  width: 11rem;
+}
+.headerTopContainerItem3 {
+  width: 12rem;
+}
+.headerTopContainer {
+  border-radius: 5px;
+  background-color: rgb(57, 103, 204);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.headerTop {
+  display: flex;
+  justify-content: end;
+  margin: 5px 0;
+  gap: 1rem;
+  width: 80%;
+  height: 25px;
+}
+.secondItem {
+  min-width: 120px;
+}
+
+/******* Home *********/
+.home {
+  background-image: url("./assets/home/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100% !important;
+  height: 470px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.topHome {
+  width: 100%;
+  height: 60px;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.homeTest {
+  font-size: clamp(1.125rem, 0.5rem + 2.5vw, 2.5rem);
+  color: white;
+}
+.btnHome {
+  background-color: white;
+  color: rgba(44, 44, 228, 0.856);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/****************************/
+
+.welcomeDiv {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+}
+.welcomeImageDiv {
+  width: 50%;
+  padding: 35px;
+}
+.welcomeImg {
+  width: 100%;
+  height: 100%;
+}
+.welcomeText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 35px;
+}
+.label1 {
+  font-size: clamp(1.125rem, 0.7841rem + 1.3636vw, 1.875rem);
+  font-weight: bold;
+  color: rgba(44, 44, 228, 0.856);
+}
+.welcomeLabel {
+  text-align: center;
+}
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcomeText > p {
+  text-align: center;
+  font-size: clamp(0.625rem, 0.483rem + 0.5682vw, 0.9375rem);
+  color: gray;
+}
+.btnWelcome {
+  padding: 5px;
+  border: none;
+  background-color: rgb(184, 184, 40);
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 8rem;
+}
+
+/*****************************/
+
+.newPatientsMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newPatientDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 2rem 2rem 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: white;
+  background-color: rgb(57, 103, 204);
+  border-radius: 10px;
+  margin: 3rem 0;
+}
+.newPatientDiv > strong {
+  font-size: clamp(0.9375rem, 0.5114rem + 1.7045vw, 1.875rem);
+}
+.newPatientDiv > p {
+  text-align: center;
+  font-size: clamp(0.6875rem, 0.4886rem + 0.7955vw, 1.125rem);
+}
+.patientBtnGroup {
+  display: flex;
+  gap: 1rem;
+}
+.btnPatient1 {
+  padding: 5px;
+  border: none;
+  background-color: rgb(184, 184, 40);
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 6rem;
+}
+.btnPatient2 {
+  padding: 5px;
+  border: none;
+  background-color: rgb(184, 184, 40);
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 13rem;
+}
+.specialties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+.specialties strong {
+  color: rgb(57, 103, 204);
+  font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
+}
+.specialtiesCard {
+  width: 33%;
+  height: auto;
+  border: 1px solid rgb(57, 103, 204);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: center;
+  margin: 4rem 0;
+  position: relative;
+  padding-top: 3.5rem;
+}
+.specialtiesCard > label {
+  font-size: clamp(1.1875rem, 1.017rem + 0.6818vw, 1.5625rem);
+  height: 3rem;
+  padding: 0 1rem;
+}
+.specialtiesCard p {
+  height: 5rem;
+}
+.specialtiesCard p,
+small {
+  font-size: 15px;
+  color: gray;
+}
+.specialtiesIcon {
+  position: absolute;
+  top: -2.4rem;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(57, 103, 204);
+  padding: 5px;
+  z-index: 10;
+}
+.mainSpecialtiesCard {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+.btnStyle {
+  padding: 5px 12px;
+  border: none;
+  background-color: rgb(184, 184, 40);
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/*********************************/
+
+.invitation {
+  background-image: url("./assets/invisalign.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+/*********************************/
+
+.meetDoctor {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meetDoctor strong {
+  color: rgb(57, 103, 204);
+  font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
+}
+.doctor {
+  display: flex;
+  width: 100%;
+  padding: 3rem 0;
+}
+.doctorImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.doctorDetails {
+  width: 50%;
+}
+.imageDiv {
+  width: 50%;
+  height: 80%;
+}
+.doctorDetailsDiv {
+  width: 74%;
+  height: 100%;
+}
+.Apart {
+  text-align: center;
+}
+.Apart > strong {
+  color: rgb(57, 103, 204);
+  font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
+}
+.apartMainDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+  gap: 3rem;
+}
+.cardIcon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apartCard {
+  display: flex;
+  width: 21rem;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 1rem;
+  position: relative;
+}
+.cond {
+  width: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  height: 43px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(57, 103, 204);
+  position: absolute;
+  top: -26px;
+  left: -26px;
+}
+.reviewMainDiv {
+  background-image: url("./assets/review/reviewBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.reviewMainDiv > strong {
+  color: white !important;
+  font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
+}
+.googleLog {
+  width: 14%;
+}
+.description {
+  color: white;
+}
+.reviewCard {
+  width: 25%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(57, 103, 204);
+  padding: 3rem 1rem 1rem 1rem;
+  position: relative;
+  gap: 1rem;
+  border-radius: 5px;
+}
+.cardText {
+  color: rgb(57, 103, 204) !important;
+}
+.iconLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(57, 103, 204);
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+}
+.iconLabel > label {
+  color: white;
+}
+.reviewCardGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+.follow {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  flex-direction: column;
+}
+.flowSubDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5px;
+  padding: 2rem;
+}
+.flowSubDiv > strong {
+  font-size: 22px;
+}
+.follow > strong {
+  color: rgb(57, 103, 204);
+  font-size: clamp(1.1875rem, 0.9318rem + 1.0227vw, 1.75rem);
+}
+.visitText {
+  color: rgb(57, 103, 204);
+}
+.followMainDiv {
+  width: 100%;
+  display: flex;
+  padding: 2rem 0;
+}
+.timeing > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+  margin-bottom: 2px;
+  min-width: 15rem;
+  max-width: 15rem;
+}
+/***** Footer ******/
+footer {
+  background-color: rgb(57, 103, 204);
+  padding: 2rem 3rem;
+}
+.footerMainDiv {
+  width: 100%;
+  display: flex;
+}
+.footerSubDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  color: white;
+  font-size: 14px;
+}
+.footerLogoDiv {
+  justify-content: center;
+  align-items: center;
+}
+.footerSubDiv > ul {
+  list-style: none;
+  padding: 0;
+}
+.footerSubDiv > ul > li {
+  padding: 3px 0;
+}
+.footerLogo {
+  width: 50%;
+}
+.logoTiming {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lineBar {
+  color: rgb(184, 184, 40);
+  opacity: 0.55;
+}
+.footerLine {
+  font-size: 12px;
+}
+.footerLine ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    padding: 0 4rem !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .welcomeDiv {
+    flex-direction: column;
+  }
+  .welcomeImageDiv {
+    width: 100%;
+  }
+  .welcomeText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 834px) {
+  .mainSpecialtiesCard {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .specialtiesCard > label {
+    height: auto;
+  }
+  .specialtiesCard {
+    width: 60%;
+    margin: 1.5rem 0;
+  }
+  .specialtiesCard p {
+    height: auto;
+  }
+  .doctor {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .doctorImage {
+    width: 100%;
+  }
+  .doctorDetails {
+    width: 100%;
+  }
+  .doctorDetailsDiv {
+    width: 100%;
+  }
+  .headerTop {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .followMainDiv {
+    flex-direction: column-reverse;
+  }
+  .flowSubDiv {
+    width: 100%;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .follow {
+    padding: 3rem 0rem;
+  }
+  .logoTiming {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footerMainDiv {
+    flex-direction: row-reverse;
+  }
+  .footerSubDiv {
+    width: 100%;
+  }
+  .footerLine > ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mainHeaderTop {
+    display: none;
+  }
+  .navbar {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .specialtiesCard {
+    width: 100%;
+  }
+  .patientBtnGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerMainDiv {
+    flex-direction: column-reverse;
+  }
+}
